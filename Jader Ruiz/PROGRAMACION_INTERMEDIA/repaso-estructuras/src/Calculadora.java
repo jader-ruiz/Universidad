@@ -38,6 +38,7 @@ public class Calculadora {
         }
 
         System.out.println("Resultado: "+resultado);
+        sc.close();
 
         
 

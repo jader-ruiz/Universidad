@@ -34,5 +34,6 @@ public class ArregloFormaCrecienteDecreciente {
         }else{
             System.out.println("\nIgual");
         }
+        sc.close();
     }
 }

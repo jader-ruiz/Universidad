@@ -27,9 +27,50 @@ public class Ciclos {
                 System.out.println("\nNumero incorrecto.");
             }
         }while(opcion != 0);
+        sc.close();
     }
+
+    public void forIntroduccion(){
+        for(int i = 1; i <= 5; i++){
+            System.out.println("Iteracion: "+i);
+        }
+        sc.close();
+    }
+
+    public void tablaMultiplicar(){
+        System.out.println("De qué número quieres la tabla?");
+        int numero = sc.nextInt();
+
+        for(int i = 1; i <= 10; i++){
+            System.out.println(numero+ " * "+ i+ " = "+ (numero*i));
+        }
+        sc.close();
+    }
+
+    public void matriz4x4(){
+        for(int fila = 1; fila <= 4; fila++){
+            for(int col = 1; col <= 4; col++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+
+    public void breakContinue(){
+        for(int i = 1; i <= 10; i++){
+            if(i == 5) break;
+            System.out.print(i+" ");
+        }
+        System.out.println("\n");
+        for(int i = 1; i <= 10; i++){
+            if(i % 2 == 0) continue;
+            System.out.print(i+" ");
+        }
+    }
+
     public static void main(String[] args){
         Ciclos op = new Ciclos();
-        op.Menu();
+        op.breakContinue();
     }
 }

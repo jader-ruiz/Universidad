@@ -24,6 +24,13 @@ Miclase -> nombre -> PascalCase
 ## Objeto:
 Ejemplo concreto de una clase
 
+## Metodos:
+- Constructores: Son los que le dan vida al objeto
+- Metodos genericos: Realizan acciones utilizando los atributos
+- Metodos para acceso directo a los atributos (getters & setters). Obtener el valor del atributo o modificar el valor del atributo.
+    - get: obtener
+    - set: modificar
+
 ## Ejemplo:
 
 ### 1

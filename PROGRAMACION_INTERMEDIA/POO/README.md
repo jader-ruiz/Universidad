@@ -26,6 +26,7 @@ Ejemplo concreto de una clase
 
 ## Ejemplo:
 
+### 1
 public class Persona(){
     nombre: String;
     edad: int; -> atributos
@@ -41,6 +42,21 @@ nombre: "Jader"
 edad: 18
 altura 1.69
 
+### 2
+Gato
+- peso: double
+- colorOjos: String 
+- colorPelaje: String
++ maullar()
++ dormir()
 
+compota: Gato
+peso: 23
+colorOjos: "Verde"
+colorPelaje: "Gris"  
+
+## Encapsulamiento:
+Consiste en formar un "Paquete" de la clase con sus atributos privados y sus metodos publicos
+Normalmente, los atributos son privados para que no se accedan directamente, se accede atraves de un metodo publico
 
 

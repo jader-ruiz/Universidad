@@ -1,6 +1,6 @@
 package ESTRUCTURA_DATOS.cadenas;
 
-public class Cadena4 {
+public class ConcatenacionCadenas {
     public static void main(String[] args) {
         String nombre = "Jader";
         String apellido = "Ruiz";

@@ -1,6 +1,6 @@
 package ESTRUCTURA_DATOS.cadenas;
 
-public class Cadena2 {
+public class Length {
     public static void main(String[] args) {
         String cad = "Estructuras de Datos";
         int cont = 0;

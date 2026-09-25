@@ -1,6 +1,6 @@
 package ESTRUCTURA_DATOS.cadenas;
 
-public class Cadena3 {
+public class CharAt {
     public static void main(String[] args) {
         String cad = "Sistemas";
         char letra1,letra2,letra3;

@@ -1,6 +1,6 @@
 package ESTRUCTURA_DATOS.cadenas;
 
-public class Cadena6 {
+public class Equals {
     public static void main(String[] args) {
         String cad1 = "Hola";
         String cad2 = "hola";

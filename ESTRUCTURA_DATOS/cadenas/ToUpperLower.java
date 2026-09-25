@@ -1,6 +1,6 @@
 package ESTRUCTURA_DATOS.cadenas;
 
-public class Cadena5 {
+public class ToUpperLower {
     public static void main(String[] args) {
         String cad1 = "programacion en java";
         String cad2 = "ESTRUCTURAS DE DATOS";

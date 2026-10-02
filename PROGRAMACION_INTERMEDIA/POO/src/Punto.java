@@ -3,8 +3,14 @@ public class Punto {
     private int x,y;
 
     public Punto(int x, int y){
-        this.setX(3);
-        this.setY(5);
+        this.setX(x);
+        this.setY(y);
+    }
+    public Punto(int xy){
+        this(xy, xy);
+    }
+    public Punto(){
+        this(0,0);
     }
 
     public double modulo(){
@@ -12,8 +18,8 @@ public class Punto {
     }
 
     public double fase(){
-        double valor = 0;
-        return valor;
+        double aux = (double) (this.y) / (this.x);
+        return Math.atan(aux);
     }
 
     public int getX() {

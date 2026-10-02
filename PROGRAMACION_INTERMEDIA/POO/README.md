@@ -74,4 +74,14 @@ colorPelaje: "Gris"
 Consiste en formar un "Paquete" de la clase con sus atributos privados y sus metodos publicos
 Normalmente, los atributos son privados para que no se accedan directamente, se accede atraves de un metodo publico
 
+## Polimorfismo
+Mismo metodo diferente significado
+### Estatico
+Sobrecarga de metodos -> Definir 2 o más metodos que van a tener el mismo nombre, pero con parametros diferentes en cantidad o tipo
+
+Tiempo compilacion
+### Dinamico 
+Sobreescritura de metodos
+Tiempo ejecucion
+
 

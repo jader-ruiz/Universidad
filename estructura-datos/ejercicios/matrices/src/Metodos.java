@@ -102,8 +102,30 @@ public class Metodos {
         }
     }
 
-    public void graficaAsteriscos(){
-        
+    public void graficarAsteriscos() {
+        int n = 7; 
+        char[][] matriz = new char[n][n];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                matriz[i][j] = ' ';
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (j == 0 || j == n - 1 || (i <= n / 2 && (i == j || j == n - 1 - i))) {
+                    matriz[i][j] = '*';
+                }
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print("[" + matriz[i][j] + "] ");
+            }
+            System.out.println();
+        }
     }
     
 }

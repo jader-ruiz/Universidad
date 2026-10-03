@@ -1,4 +1,5 @@
-package ESTRUCTURA_DATOS.matrices;
+package ESTRUCTURA_DATOS.matrices.src;
+
 import java.util.*;
 public class Matriz3 {
     public Scanner sc;

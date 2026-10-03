@@ -1,12 +1,12 @@
 import java.util.*;
-public class arreglos3 {
+public class Arreglos3 {
 
     Scanner teclado;
     final int tam = 10;
     int v[];
     
 
-    public arreglos3(){
+    public Arreglos3(){
             v = new int[tam];
     }
 
@@ -27,7 +27,7 @@ public class arreglos3 {
         }
     }
     public static void main(String[] args) {
-            arreglos3 op = new arreglos3();
+            Arreglos3 op = new Arreglos3();
             op.leer();
             op.mostrar();
         

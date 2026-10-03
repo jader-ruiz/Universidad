@@ -1,4 +1,4 @@
-package ESTRUCTURA_DATOS.cadenas;
+package ESTRUCTURA_DATOS.cadenas.src;
 
 public class CompareTo {
    public static void main(String[] args) {

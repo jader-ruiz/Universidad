@@ -1,4 +1,4 @@
-package ESTRUCTURA_DATOS.matrices;
+package ESTRUCTURA_DATOS.matrices.src;
 
 public class Matriz1 {
     public static void main(String[] args) {

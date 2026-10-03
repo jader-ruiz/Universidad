@@ -1,4 +1,4 @@
-public class arreglos2 {
+public class Arreglos2 {
     public static void main(String[] args) {
         final int tam = 10;
         int[] v;

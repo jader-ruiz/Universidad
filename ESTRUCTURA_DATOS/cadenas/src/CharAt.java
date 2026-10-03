@@ -1,4 +1,4 @@
-package ESTRUCTURA_DATOS.cadenas;
+package ESTRUCTURA_DATOS.cadenas.src;
 
 public class CharAt {
     public static void main(String[] args) {

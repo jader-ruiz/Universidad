@@ -3,6 +3,31 @@ public class DepositoAgua {
     private double volumenActual;
     private DepositoAgua depositoDesborde;
 
+    public DepositoAgua(){}
+
+    public DepositoAgua(double capacidad){
+        if(capacidad > 0){
+            this.capacidad = capacidad;
+        }else{
+            System.out.println("Capacidad ingresada invalida.");
+        }
+        volumenActual = 0;
+        depositoDesborde = null;
+    }
+
+    public DepositoAgua(double capacidad, double volumenActual){
+        if(capacidad > 0){
+            this.capacidad = capacidad;
+        }else{
+            System.out.println("Capacidad ingresada invalida.");
+        }
+        if(volumenActual > 0 && volumenActual <= capacidad){
+            this.volumenActual = volumenActual;
+        }else{
+            System.out.println("Volumen ingresado invalido.");
+        }
+    }
+
     public double getCapacidad() {
         return capacidad;
     }
@@ -14,21 +39,9 @@ public class DepositoAgua {
         return depositoDesborde;
     }
 
-    public void setCapacidad(double capacidad) {
-        if(capacidad > 0){
-            this.capacidad = capacidad;
-        }else{
-            System.out.println("Capacidad ingresada invalida.");
-        }
-    }
+    public void setCapacidad(double capacidad) {}
 
-    public void setVolumenActual(double volumenActual) {
-        if(volumenActual > 0 && volumenActual <= capacidad){
-            this.volumenActual = volumenActual;
-        }else{
-            System.out.println("Volumen ingresado invalido.");
-        }
-    }
+    public void setVolumenActual(double volumenActual) {}
 
     public void setDepositoDesborde(DepositoAgua depositoDesborde) {
         this.depositoDesborde = depositoDesborde;
@@ -58,8 +71,7 @@ public class DepositoAgua {
             desbordamiento = true;
 
             
-        }else if(desbordamiento && cantidad > 0 && cantidad+volumenActual <= capacidad){
-            System.out.println("Se agrego "+cantidad+"L más de agua");
+        }else if(!desbordamiento && cantidad > 0 && cantidad+volumenActual <= capacidad){
             volumenActual += cantidad;
             desbordamiento = false;
         }

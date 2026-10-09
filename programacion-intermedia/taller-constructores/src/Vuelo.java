@@ -6,6 +6,31 @@ public class Vuelo {
     private int ocupacion;
     private int capacidadMaxima;
 
+    public Vuelo(){}
+
+    public Vuelo(String numero, String origen, String destino){
+        this.numero = numero;
+        this.origen = origen;
+        this.destino = destino;
+        ocupacion = 0;
+    }
+
+    public Vuelo(String numero, String origen, String destino, int ocupacion, int capacidadMaxima){
+        this.numero = numero;
+        this.origen = origen;
+        this.destino = destino;
+        if(ocupacion >= 0  && ocupacion <= capacidadMaxima){
+            this.ocupacion = ocupacion;
+        }else{
+            System.out.println("Ocupacion invalida.");
+        }
+        if(capacidadMaxima <= 0){
+            System.out.println("Capacidad maxima invalida.");
+        }else{
+            this.capacidadMaxima = capacidadMaxima;
+        }
+    }
+
     public int getCapacidadMaxima() {
         return capacidadMaxima;
     }
@@ -22,26 +47,14 @@ public class Vuelo {
         return origen;
     }
 
-    public void setCapacidadMaxima(int capacidadMaxima) {
-        if(capacidadMaxima <= 0){
-            System.out.println("Capacidad maxima invalida.");
-        }else{
-            this.capacidadMaxima = capacidadMaxima;
-        }
-    }
+    public void setCapacidadMaxima(int capacidadMaxima) {}
     public void setDestino(String destino) {
         this.destino = destino;
     }
     public void setNumero(String numero) {
         this.numero = numero;
     }
-    public void setOcupacion(int ocupacion) {
-        if(ocupacion >= 0  && ocupacion <= capacidadMaxima){
-            this.ocupacion = ocupacion;
-        }else{
-            System.out.println("Ocupacion invalida.");
-        }
-    }
+    public void setOcupacion(int ocupacion) {}
     public void setOrigen(String origen) {
         this.origen = origen;
     }

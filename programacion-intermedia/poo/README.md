@@ -85,3 +85,33 @@ Sobreescritura de metodos
 Tiempo ejecucion
 
 
+## Relaciones entre clase y UML
+
+### Asociación
+Un objeto conoce a otro.
+Un objeto tiene una referencia a otro, pero ambos pueden existir de forma independiente.
+Medico y paciente. 
+
+### Composición
+Un objeto esta formado por otros. Sin el todo, las partes no tienen sentido.
+Un lado es el todo. El otro son las partes.
+
+La parte no puede existir sin el todo. TODO Y PARTES.
+
+Nacieron objetos dentro de una clase, si esa clase deja de existir ese objeto se va. 
+VUELO: TODO
+ASIENTOS: PARTES
+Rombo relleno.
+
+### Agregación
+Un objeto contiene a otros, pero las partes pueden existir sin él.
+
+Biblioteca, libros
+Si se elimina la biblioteca los libros siguen existiendo.
+Rombo vacío.
+
+### Multiplicidad
+
+
+
+

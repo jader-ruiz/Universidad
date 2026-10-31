@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.programacionintermedia.poo.basicos;
+package edu.universidad.programacionintermedia.poo.basicos;
 
 
 public class NumeroNatural {

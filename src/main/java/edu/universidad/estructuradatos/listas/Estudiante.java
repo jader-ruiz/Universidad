@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.estructuradatos.listas;
+package edu.universidad.estructuradatos.listas;
 
 
 

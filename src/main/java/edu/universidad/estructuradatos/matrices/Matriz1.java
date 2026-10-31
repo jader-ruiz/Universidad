@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.estructuradatos.matrices;
+package edu.universidad.estructuradatos.matrices;
 
 
 public class Matriz1 {

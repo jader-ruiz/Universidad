@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.estructuradatos.arreglos;
+package edu.universidad.estructuradatos.arreglos;
 
 
 public class SecuenciaFibonacci{

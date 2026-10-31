@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.programacionintermedia.basica.arreglos;
+package edu.universidad.programacionintermedia.basica.arreglos;
 
 
 

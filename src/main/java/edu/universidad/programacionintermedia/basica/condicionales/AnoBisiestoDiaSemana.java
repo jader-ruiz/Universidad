@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.programacionintermedia.basica.condicionales;
+package edu.universidad.programacionintermedia.basica.condicionales;
 
 
 import java.util.Scanner;

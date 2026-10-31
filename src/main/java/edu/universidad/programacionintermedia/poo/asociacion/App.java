@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.programacionintermedia.poo.asociacion;
+package edu.universidad.programacionintermedia.poo.asociacion;
 
 
 public class App{

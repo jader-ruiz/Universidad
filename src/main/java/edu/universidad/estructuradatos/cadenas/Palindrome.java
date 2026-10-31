@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.estructuradatos.cadenas;
+package edu.universidad.estructuradatos.cadenas;
 
 
 

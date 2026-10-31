@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.programacionintermedia.poo.constructores;
+package edu.universidad.programacionintermedia.poo.constructores;
 
 
 public class DepositoAgua {

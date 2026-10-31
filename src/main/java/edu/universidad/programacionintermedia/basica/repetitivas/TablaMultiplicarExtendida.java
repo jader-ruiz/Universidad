@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.programacionintermedia.basica.repetitivas;
+package edu.universidad.programacionintermedia.basica.repetitivas;
 
 
 import java.util.*;

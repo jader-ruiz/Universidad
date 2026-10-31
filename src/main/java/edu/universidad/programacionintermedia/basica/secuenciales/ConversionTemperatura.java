@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.programacionintermedia.basica.secuenciales;
+package edu.universidad.programacionintermedia.basica.secuenciales;
 
 
 import java.util.*;

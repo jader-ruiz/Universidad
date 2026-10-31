@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.programacionintermedia.repaso;
+package edu.universidad.programacionintermedia.repaso;
 
 
 public class App {

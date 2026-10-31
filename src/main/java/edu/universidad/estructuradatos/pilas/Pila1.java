@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.estructuradatos.pilas;
+package edu.universidad.estructuradatos.pilas;
 
 
 import java.util.Scanner;
@@ -7,7 +7,6 @@ public class Pila1{
     int[] v;
     int cima;
     static Scanner sc = new Scanner(System.in);
-    
 
     public Pila1(){
         v = new int[TOPE];

@@ -1,4 +1,4 @@
-package edu.universidad.edu.universidad.estructuradatos.pilas;
+package edu.universidad.estructuradatos.pilas;
 
 
 import java.util.Scanner;

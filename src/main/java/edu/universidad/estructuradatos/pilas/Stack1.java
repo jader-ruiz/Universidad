@@ -1,8 +1,6 @@
-package edu.universidad.edu.universidad.estructuradatos.pilas;
-
+package edu.universidad.estructuradatos.pilas;
 
 import java.util.Stack;
-
 
 public class Stack1{
     Stack<StackPersona> personas;

@@ -1,5 +1,4 @@
-package edu.universidad.edu.universidad.estructuradatos.pilas;
-
+package edu.universidad.estructuradatos.pilas;
 
 public class StackPersona{
     private String nombre;

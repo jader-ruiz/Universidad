@@ -1,18 +1,28 @@
-# 🎓 Repositorio Universitario
+# Portafolio universitario
 
-¡Hola! 👋 Este repositorio es un portafolio de mi progreso académico en la universidad. Aquí documento mis prácticas, talleres, laboratorios y proyectos de programación.
+Repositorio académico de ejercicios, talleres y prácticas de programación en Java. El código fuente está centralizado en `src/main/java` y organizado en paquetes que reflejan los temas:
 
-El objetivo de este espacio es mantener mi código ordenado, aplicar buenas prácticas desde etapas tempranas y tener un registro de mi evolución en el desarrollo de software.
+```text
+src/main/java/edu/universidad/
+├── programacionintermedia/
+│   ├── repaso/
+│   ├── basica/
+│   │   ├── arreglos/
+│   │   ├── condicionales/
+│   │   ├── repetitivas/
+│   │   └── secuenciales/
+│   └── poo/
+│       ├── basicos/
+│       ├── asociacion/
+│       └── constructores/
+└── estructuradatos/
+    ├── arreglos/
+    ├── cadenas/
+    ├── listas/
+    ├── matrices/
+    └── pilas/
+```
 
-## 📂 Estructura del Repositorio
+Cada archivo Java declara el paquete correspondiente a su carpeta. Los ejercicios de programación intermedia cubren lógica básica, estructuras de control, arreglos y programación orientada a objetos. Los de estructuras de datos incluyen arreglos, cadenas, listas, matrices y pilas. La clase introductoria `Array` se llama `ArreglosBasicos` para evitar confusiones con clases de la plataforma Java.
 
-El repositorio está dividido por materias. Cada carpeta contiene sus propios proyectos y un archivo `README.md` con detalles específicos de lo que se aborda en esa asignatura:
-* **[`/estructura-datos`](./estructura-datos/)**: Implementación y manipulación de estructuras de información en memoria (Arreglos, Matrices, Cadenas).
-* **[`/programacion-intermedia`](./programacion-intermedia/)**: Fundamentos de lógica, estructuras de control (secuenciales, condicionales, ciclos) y Programación Orientada a Objetos (POO).
-
-## 🛠️ Tecnologías y Herramientas
-* **Lenguaje Principal:** Java ☕
-* **Entorno de Desarrollo:** Visual Studio Code
-
----
-*Repositorio mantenido para fines académicos y de aprendizaje continuo.*
+Se requiere un JDK para compilar y ejecutar los programas. Cada ejercicio con método `main` puede ejecutarse de forma independiente desde un IDE, seleccionando su clase principal.

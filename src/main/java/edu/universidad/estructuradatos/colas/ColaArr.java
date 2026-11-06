@@ -1,3 +1,4 @@
+package edu.universidad.estructuradatos.colas;
 import java.util.*;
 public class ColaArr{
     public static final int TOPE = 10;

@@ -21,6 +21,6 @@ public class PuntoTiempo extends Punto{
     }
 
     public double velocidad(){
-        return super.modulo() / this.getT();
+        return this.modulo() / this.getT();
     }
 }

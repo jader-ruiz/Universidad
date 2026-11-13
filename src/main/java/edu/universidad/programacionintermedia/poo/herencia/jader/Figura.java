@@ -1,4 +1,4 @@
-package edu.universidad.programacionintermedia.poo.herencia;
+package edu.universidad.programacionintermedia.poo.herencia.jader;
 
 public class Figura{
     private String color;

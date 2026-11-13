@@ -1,5 +1,4 @@
-package edu.universidad.programacionintermedia.poo.herencia;
-
+package edu.universidad.programacionintermedia.poo.herencia.jader;
 public class Rectangulo extends Figura{
     private double base;
     private double altura;

@@ -1,4 +1,4 @@
-package edu.universidad.programacionintermedia.poo.herencia;
+package edu.universidad.programacionintermedia.poo.herencia.jader;
 
 public class Circulo extends Figura{
     private double radio;
